@@ -6,7 +6,7 @@ This project contains instances (test cases) for the Robust Multistage Root Sequ
 
 This project uses a permissive BSD-like license and it can be used as it pleases you. And since this framework is also part of an academic effort, we kindly ask you to remember to cite the originating paper of this work. Indeed, Clause 4 estipulates that "all publications, softwares, or any other materials mentioning features or use of this software (as a whole package or any parts of it) and/or the data used to test it must cite the following article explicitly":
 
-    M. Londe, C.E. Andrade, L.S. Pessoa. Exact and heuristic approaches for the root sequence index allocation problem. Applied Soft Computing, page 109634. 2022, DOI 10.1016/j.asoc.2022.109634.
+    M. Londe, C.E. Andrade, L.S. Pessoa. A multi-stage approach for Root Sequence Index allocation. 
 
 Check it out the full license.
 
@@ -42,6 +42,7 @@ The files are in plain text (.txt) for easy parsing.
 ## :computer: Instance generator code
 
 The Julia code used to create the instances is included in this project. It has the following parameters
+
     <rsi-instance-file> : the original RSI allocation problem instance file. Those instances may be found in https://github.com/ceandrade/rsi_allocation_problem_instances;
     <seed> : random seed value;
     <number-stages> : desired number of stages;
