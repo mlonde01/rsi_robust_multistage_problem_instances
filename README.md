@@ -38,17 +38,3 @@ All instances have the following fields:
     scenarios: a num_nodes X num_nodes X num_stages X num_trajectories matrix that indicates the existing edges in each stage and scenario. A 1 indicate the existence of an edge, while a 0 means it does not exist.
 
 The files are in plain text (.txt) for easy parsing.
-
-## :computer: Instance generator code
-
-The Julia code used to create the instances is included in this project. It has the following parameters
-
-    <rsi-instance-file> : the original RSI allocation problem instance file. Those instances may be found in https://github.com/ceandrade/rsi_allocation_problem_instances;
-    <seed> : random seed value;
-    <number-stages> : desired number of stages;
-    <number-scenarios> : desired number of scenarios per stage;
-    <gamma> : desired value of gamma for the scenarios;
-    <delta> : desired value of delta for the scenarios;
-    <new_inst_dir>: directory where the new instance will be saved.
-
-The code includes a two structs rsiInstance and ms_rsiInstance, which are used to propoerly initialize and read the files.
