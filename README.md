@@ -6,7 +6,7 @@ This project contains instances (test cases) for the Robust Multistage Root Sequ
 
 This project uses a permissive BSD-like license and it can be used as it pleases you. And since this framework is also part of an academic effort, we kindly ask you to remember to cite the originating paper of this work. Indeed, Clause 4 estipulates that "all publications, softwares, or any other materials mentioning features or use of this software (as a whole package or any parts of it) and/or the data used to test it must cite the following article explicitly":
 
-    M. Londe, C.E. Andrade, L.S. Pessoa. A multi-stage approach for Root Sequence Index allocation. 
+    M. Londe, C.E. Andrade, L.S. Pessoa. (2025) A multi-stage approach for Root Sequence Index allocation. European Journal of Operational Research. doi 10.1016/j.ejor.2025.05.015. Article in press.
 
 Check it out the full license.
 
